@@ -5,29 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado liebre</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/6d5db1da77.js" crossorigin="anonymous"></script>
+
 </head>
 
-<body>
-    <header>
+<body>    
+    <header class=header-principal>
         <div> <img src="/images/logo-mercado-liebre.svg" alt="logo mercado liebre" width="360" >
             </div>
-        <p>Lugar para poner barra de busqueda</p>
-        <br>
-        <h2><strong>Comprá en cuotas y sin tarjeta de credito</strong></h2>
+            <br><i class="fas fa-search"></i>
+            <input class="barra" type="search" name="Buscar articulo" placeholder="buscar productos, marcas" size=30 >
+            <br>
+            <h2 class="comprar"><i class="fas fa-hand-holding-usd"></i><strong> Comprá en cuotas y sin tarjeta de credito</strong></h2>
+            
         <nav>
-            <ul>
+            <ul type=none>
                 <li><a href="" >Ofertas </a></li>
                 <li><a href="" >Tiendas Oficiales</a></li>
                 <li><a href="" >Vender</a></li>
                 <li><a href="" >Ayuda</a></li>
                 <br>
-                <li><a href="" >Creá tu cuenta</a></li>
-                <li><a href="" >Ingresá</a></li>
-                <li><a href="" >Mis compras</a></li>
+                <li> <a href="" > Creá tu cuenta</a> <i class="fas fa-address-card"></i> </li>
+                <li><a href="" >Ingresá</a> <i class="fas fa-sign-in-alt"></i></li>
+                <li><a href="" >Mis compras</a> <i class="fas fa-shopping-basket"></i></li>
+                <br>
             </ul>
+            <div class="burger-menu">
+                <i class="fas fa-bars"></i>
+                </div>
+                <br>
+                <br>
         </nav>
+            
     </header>
-    <main>
+    <main class="main">
         <img src="/images/img-home-banner.jpg" alt="banner" width="360" >
         <br>
         <section>

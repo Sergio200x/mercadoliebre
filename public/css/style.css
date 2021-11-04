@@ -1,0 +1,44 @@
+.header-principal
+{ 
+    background-color: #EAC926;
+    width: 360px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main
+{   width: 360px;
+    background-color: #ebebeb;
+}
+
+h2{
+    text-align: center;
+   
+}
+.comprar{
+    font-size: medium;
+}
+
+article
+{
+    width: 360px;
+    ;
+}
+
+.barra
+{ 
+    margin-left:10px;
+            
+}
+.burger-menu
+{         
+    color: #ebebeb;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    margin-left: 45%;
+    background-color: #1259c3;
+    height: 20px;
+    width: 30px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px 	
+}
