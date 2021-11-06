@@ -1,3 +1,7 @@
+:root{
+    font-family: 'Roboto', sans-serif
+}
+
 .header-principal
 { 
     background-color: #EAC926;
@@ -41,4 +45,29 @@ article
     width: 30px;
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px 	
+}
+
+footer
+{
+    text-align: center;
+   
+}
+
+footer p {
+  width: 250px;
+  margin-left: 15%;
+  margin-right:15% ;
+  color: #666;
+    
+}
+
+footer i {
+    
+    color:#1259c3;
+    font-size: 25PX;
+}
+
+footer strong
+{
+    color: #666;
 }
