@@ -39,6 +39,27 @@ h2{
     text-align: center;
    
 }
+
+.carrito
+{
+    border:solid 1px red;
+    width: 10%;
+    border-radius: 100%;
+    font-size: 15px;
+    
+    
+    
+}
+.carrito i
+{   display: block;
+    margin: auto;
+    padding: 5px 0;
+    font-size: 10px;
+     
+    text-align: center;
+}
+
+
 .comprar{
     font-size: medium;
 }
