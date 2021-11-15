@@ -11,14 +11,16 @@
     width: 100%;
     font-family: 'Roboto', sans-serif;
     margin: auto;
+
 }
 
 .barra
 {
-    width: 75%;
+    width: 85%;
     height: 35px;
     align-items: center;
     margin-top: 10px;
+    margin-left: 0px;
 }
 
 .barraIcono
@@ -39,7 +41,9 @@
 .burger-menu i
 {   
     margin: auto;
-    padding: 15px 0 
+    padding: 5px 5px;
+    font-size:x-large;
+
 }
 
 
@@ -144,7 +148,7 @@ article ul
 {
     margin-top: 0;
     text-align: left;
-    margin-right:8px ;
+    /*margin-right:8px ;*/
     position: relative;
     padding: 0;
     margin-left:15px;
@@ -270,13 +274,14 @@ footer strong
 .nav1
 {   
     display: flex;
+    
 
 }
 
 
 
 .nav1 li
-{ margin: 0 5px;
+{ margin: 0 10px;
 }
 
 .nav2
@@ -284,17 +289,26 @@ footer strong
     
     display: flex;
     
-}
-.nav2 li
-{margin: 0 5px;
+    margin-right: -20px;
+    padding: 0px;
+    margin-left:200px;
+
+    
+    
     
 }
+.nav2 li
+{ margin: 0 10px;
+}  
+    
 
 nav
 {
  
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    
 
 }
 }
