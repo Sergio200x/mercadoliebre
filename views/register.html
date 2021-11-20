@@ -14,7 +14,7 @@
     <script src="https://kit.fontawesome.com/6d5db1da77.js" crossorigin="anonymous"></script>
 
 </head>
-<body>
+<body class="body-register">
     <header class="header-principal">
         <section class="superior">
         <div class="logoML"> <img src="/images/logo-mercado-liebre.svg" alt="logo mercado liebre">
@@ -55,32 +55,79 @@
             <br>
        
     </header>
+    
     <main class="main-register">
         <h2>Registrate</h2>
         <h3 class="titulo-register">Completa los datos requeridos para el registro</h3>
         <form action="/register.html">
                 
-                <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido" class="input">
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido" class="input" required>
                 
-                <input type="text" name="user" id="user" placeholder="Nombre de Usuario"class="input">
+                <input type="text" name="user" id="user" placeholder="Nombre de Usuario"class="input" required>
                 
-                <input type="email" name="email" id="email" placeholder="E-mail" class="input">
+                <input type="email" name="email" id="email" placeholder="E-mail" class="input" required>
         <h3 class="titulo-register">Fecha de nacimiento</h3>
                 <input type="date" name="fecha" value="2021-15-11" min="2000-01-01" max="2021-11-15" class="input">
                 
-                <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio" class="input">
+                <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio" class="input" required>
         <h3 class="titulo-register">Perfil del usuario</h3>
-                <input type="radio"  name="tipoperfil" value="vendedor" id="comprador"> <label for="comprador">Comprador</label>
+                <input type="radio"  name="tipoperfil" value="vendedor" id="comprador" checked> <label for="comprador"  >Comprador</label>
                 <input type="radio" name="tipoperfil" value="comprador" id="vendedor"> <label for="vendedor">Vendedor</label>
-        <h3 class="titulo-register">Completa los datos requeridos para el registro</h3>
-                <input type="checkbox" name="intereses" value="electro"id="electro"> <label for="electro">electro</label>
-                <input type="checkbox" name="intereses" value="moda"id="moda"> <label for="moda">moda</label>
-                <input type="checkbox" name="intereses" value="hogar"id="hogar"> <label for="hogar">hogar</label>
-                <input type="checkbox" name="intereses" value="jugueteria"id="jugueteria"> <label for="jugueteria">jugueteria</label>
-                <input type="checkbox" name="intereses" value="Vida_Sana"id="Vida_Sana"> <label for="Vida_Sana">Vida Sana</label>
-        
-        </form> 
+                <div class="datosrequeridos">
+                    <h3 class="titulo-register">Completa los datos requeridos para el registro</h3>
+                        
+                            <h4>Tus intereses son:</h4>
+                            <input type="checkbox" name="intereses" value="electro"id="electro"> <label for="electro">Electro</label>
+                            <input type="checkbox" name="intereses" value="moda"id="moda"> <label for="moda">Moda</label>
+                            <input type="checkbox" name="intereses" value="hogar"id="hogar"> <label for="hogar">Hogar</label>
+                            <input type="checkbox" name="intereses" value="jugueteria"id="jugueteria"> <label for="jugueteria">Jugueteria</label>
+                            <input type="checkbox" name="intereses" value="Vida_Sana"id="Vida_Sana"> <label for="Vida_Sana">Vida Sana</label>
+   |                    
+                </div>
+                <div class="botones">                
+                <input type="reset" name="resetear" id="reset" class="boton-reset-register" >
+                <input type="submit" name="enviar" id="enviar" class="boton-enviar-register">
+                </div>
+        </form>     
+
+        <script src=""></script>
     </main>
+
+<footer>
+        <section>
+                <div class="iconfooter"><i class="fas fa-credit-card"></i></div>               
+                <strong> Pagá con tarjeta o en efectivo</strong>            
+               
+                    <p >Con MercadoLiebreCash tenés cuotas sin 
+                        interés con tarjeta o efectivo en puntos de
+                        pago Y siempre es seguro!!
+                    </p>               
+        </section>
+        <section>
+           
+            <div class="iconfooter"><i class="fas fa-gift"></i></div>                
+                <strong>Envio gratis desde los $2.500</strong>        
+                
+                    <p >Solo por estar registrado en Mercado liebre
+                        tenés envios gratis en miles de productos. Es
+                        un beneficio de Mercado Puntos.
+                    </p>
+                
+        </section>
+        <section >            
+            <div class="iconfooter"><i class="fas fa-user-shield"></i></div>                  
+                <strong>Seguridad de Principio a fin</strong>           
+               
+                    <p >¿No te gusta? Devolvelo! En Mercado liebre
+                        no hay nada que no puedas hacer porque estás
+                        siempre protegidx
+                        Copyrigth 1999-2020 MercadoLiebre S.R.L
+                    </p>
+               
+        </section>
+        
+</footer>
+
     
 </body>
 </html>
