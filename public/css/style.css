@@ -120,7 +120,13 @@ h2{
     font-size: 15px;     
     text-align: center;
     color: #39b54a;
+    transition: all 450ms;
 }
+
+
+
+
+
 
 
 .comprar{
@@ -157,18 +163,10 @@ article
        
 }
 
-article:hover
-{
-    width: 20%;
-    box-shadow: 0px 0px 10px rgb(100,100,100);
-}
 
 
-.contenedor-preciodescuentoynombre
-{
-    border-top: solid 1px #ebebeb;
-    
-}
+
+
 
 
 
@@ -204,15 +202,16 @@ header div i
 footer
 {
     text-align: center;
-    
+    display: flex;
+    justify-content: space-around;    
     width: 90%;
+    margin-left: 5%;    
    
 }
 
 footer p {
-  width: 250px;
-  margin-left: 15%;
-  margin-right:15% ;
+ width: 90%;
+ 
   color: #666;
   
     
@@ -221,14 +220,32 @@ footer p {
 footer i {
     
     color:#1259c3;
-    font-size: 25PX;
+    font-size: 22PX;
+    margin: auto;
     
 }
+
+
 
 footer strong
 {
     color: #666;
+    width: 30%;
     
+}
+
+
+
+footer section
+{
+    
+    transition: all 450ms;
+    margin-right: 0;
+}
+
+footer section:hover .iconfooter i
+{
+    color:turquoise
 }
 
 @media (min-width:360px)
@@ -237,9 +254,18 @@ footer strong
      display:block;
  } 
 
+ article
+{
+    box-shadow: 0px 0px 10px rgb(100,100,100)
+}
+
  nav {
      display: none;
- } 
+ }
+ .nombreproducto
+{
+    display: block;
+} 
     
 }
 @media (min-width:720px)
@@ -248,6 +274,16 @@ footer strong
  {
      display: none;
  }
+
+ article
+{
+    box-shadow: 0px 0px 10px rgb(100,100,100)
+}
+
+.nombreproducto
+{
+    display: block;
+}
 
  .nav1div 
  {
@@ -276,13 +312,13 @@ footer strong
 
 .logoML
 {
-    width: 50px;
+    width: 30%;
     margin: auto;
 }
 
 .logoML img 
 {
-    width: 50px;
+    width: 60%;
 }
 
 .barraIcono
@@ -330,7 +366,7 @@ footer strong
     
     display: flex;
     
-    margin-right: -20px;
+    
     padding: 0px;
     margin-left:200px;
 
@@ -364,6 +400,36 @@ nav
     width: 200px;
     
        
+}
+
+article:hover 
+{
+    width: 15%;
+    box-shadow: 0px 0px 10px rgb(100,100,100);
+    
+    
+}
+
+article:hover .nombreproducto
+{
+    display: block;
+}
+
+article:hover .carrito i
+{
+    transform: rotatez(-90deg);
+}
+
+
+.contenedor-preciodescuentoynombre
+{
+    border-top: solid 1px #ebebeb;
+    
+}
+
+.nombreproducto
+{
+    display: none;
 }
 }
 
@@ -402,6 +468,8 @@ font-weight: bolder;
     color:#666
 }
 
+
+
 /*
 Amarillo: #EAC926;
 Azul: #03264C;
@@ -417,4 +485,17 @@ Verde: #39b54a;
 .main-register
 {
     text-align: center;
+    
+}
+
+.input
+{
+    display: block;
+    margin: auto;
+    margin-bottom: 2%;
+    border-radius: 7%;
+    border: none;
+    width: 350px;
+    height: 30px;
+    
 }
