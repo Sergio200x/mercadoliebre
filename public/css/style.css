@@ -9,11 +9,16 @@
 { 
     background-color: #EAC926;
     width: 100%;
+    height: 150px;
     font-family: 'Roboto', sans-serif;
     margin: auto;
-   
+    padding-top: 20px;
+    
 
 }
+
+
+
 
 .barra
 {
@@ -25,10 +30,12 @@
   
 }
 
-.barraIcono
+.fa-search::before
 {
-    
+    font-size: 20px;
 }
+
+
 
 .burger-menu
 {   color: #ebebeb;
@@ -60,6 +67,8 @@ body
     background-color: #ebebeb;   
     width: 100%;
     text-align: center;
+    max-width: 1024px;
+    margin: auto;
 }
 
 
@@ -124,11 +133,6 @@ h2{
 }
 
 
-
-
-
-
-
 .comprar{
     font-size: medium;
     
@@ -164,12 +168,6 @@ article
 }
 
 
-
-
-
-
-
-
 article ul
 {
     margin-top: 0;
@@ -193,11 +191,7 @@ article i
 
 
 
-header div i 
-{
-    margin-left: 20px;
-    
-}
+
 
 footer
 {
@@ -206,7 +200,10 @@ footer
     justify-content: space-around;    
     width: 90%;
     margin: auto;  
-    margin-top: 5%; 
+    margin-top: 2%; 
+    border-top: solid 1px #666;  
+   
+    padding-top: 20px;
    
 }
 
@@ -268,6 +265,10 @@ footer section:hover .iconfooter i
 {
     display: block;
 } 
+.header-principal
+{
+    height: 280px;
+}
     
 }
 @media (min-width:720px)
@@ -353,6 +354,7 @@ footer section:hover .iconfooter i
 .nav1
 {   
     display: flex;
+    padding-left: 10px;
     
 
 }
@@ -370,12 +372,11 @@ footer section:hover .iconfooter i
     
     
     padding: 0px;
-    margin-left:200px;
-
-    
+    margin-left:10px;  
     
     
 }
+
 .nav2 li
 { margin: 0 10px;
 }  
@@ -387,8 +388,15 @@ nav
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 20px;
+    margin-bottom: 0px;
     
 
+}
+
+.header-principal
+{
+    height: 150px;
 }
 }
 
@@ -433,6 +441,18 @@ article:hover .carrito i
 .nombreproducto
 {
     display: none;
+}
+
+.nav2
+{
+    
+    display: flex;
+    
+    
+    padding: 0px;
+    margin-left:280px;  
+    
+    
 }
 
 
