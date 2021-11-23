@@ -11,5 +11,5 @@ app.get("/", (res, resp)=> resp.sendFile(path.join(__dirname,"/views/home.html")
 app.get("/register.html", (res, resp)=> resp.sendFile(path.join(__dirname,"/views/register.html")))
 app.get("/login.html", (res, resp)=> resp.sendFile(path.join(__dirname,"/views/login.html")))
 
-app.listen(port,()=>{console.log("servidor activo")})
+app.listen(process.env.PORT||3030,()=>{console.log("servidor activo")})
 
